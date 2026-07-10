@@ -3,7 +3,7 @@
 An intelligent, full-stack CRM lead ingestion engine built for **GrowEasy**. This application extracts, maps, and standardizes lead records from any arbitrary CSV format (such as Facebook Lead Exports, Google Ads Exports, manual Excel sheets, or vendor reports) into a uniform schema using LLMs (Gemini / OpenAI).
 
 ### 🔗 Live Project Demo
-* **Frontend Web App**: [https://ai-csv-parser-l64glx25c-ajeshhts-projects.vercel.app/](https://ai-csv-parser-three.vercel.app/)
+* **Frontend Web App**: [Link](https://ai-csv-parser-three.vercel.app/)
 
 The application features a premium dark glassmorphism UI, client-side preview parsing, Server-Sent Events (SSE) progress streaming, and a local regex-based heuristic mapper that runs out-of-the-box even without active LLM keys.
 
