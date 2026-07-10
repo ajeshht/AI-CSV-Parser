@@ -158,8 +158,10 @@ export default function Home() {
     ]);
     setError(null);
 
+    const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+
     try {
-      const response = await fetch('http://localhost:5000/api/import/process', {
+      const response = await fetch(`${API_BASE}/api/import/process`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
