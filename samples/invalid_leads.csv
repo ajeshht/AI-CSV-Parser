@@ -1,0 +1,6 @@
+Name,Email,Phone,Company,Notes
+Alice Green,alice@example.com,+918888877777,Green Gardens,Valid lead with email and phone
+Bob White,,,White Enterprises,Invalid lead: has no email and no phone
+Charlie Black,charlie@example.com,,Black Corp,Valid lead: email only
+Diana Pink,,+917777766666,,Valid lead: phone only
+Ethan Grey,,,Grey Stone,Invalid lead: has no email and no phone
